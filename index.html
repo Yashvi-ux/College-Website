@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakti Nursing College</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <section id="home" class="header">
+        <nav>
+            <a href="#home"><img src="SHAKTI LOGO.jpg.png" height="100px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#course">COURSE</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Shakti Institute Of Nursing,Modasa </h1>
+            <p>Run By: Shree Ram Cheritable Trust</p>
+        </div>
+    </section>
+
+    <!-- ABOUT US -->
+
+    <section id="about" class="about">
+    <h1>About Us</h1>
+    
+    <div class="about-container">
+
+        <div class="about-text">
+            <h2>Shakti Institute of Nursing, Modasa</h2>
+            <p>
+                Shakti Institute of Nursing, Modasa is dedicated to providing quality
+                education in the field of nursing and healthcare. The institute focuses
+                on developing skilled, compassionate, and responsible nursing
+                professionals who are committed to serving society.
+            </p>
+
+            <h3>Our Mission</h3>
+            <p>
+                Our mission is to provide excellent nursing education through
+                academic learning, practical training, and ethical values so that
+                students become competent healthcare professionals.
+            </p>
+
+            <h3>Our Vision</h3>
+            <p>
+                Our vision is to become a leading institution in nursing education
+                and contribute to the healthcare system by preparing professional
+                and dedicated nurses.
+            </p>
+
+            <h3>Facilities</h3>
+            <ul>
+                <li>Well-equipped classrooms</li>
+                <li>Nursing laboratories</li>
+                <li>Clinical training in hospitals</li>
+                <li>Library and study resources</li>
+                <li>Safe and supportive campus environment</li>
+                <li>Hostel Facilities(Boys & Girls)</li>
+            </ul>
+
+        </div>
+
+        
+
+    </div>
+</section>
+
+    <!-- -----COURSE------ -->
+
+    <section  id="course" class="course">
+        <h1>Courses We Offer</h1>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>G.N.M. (General Nursing and Midwifery)</h3>
+                <p>
+                    The G.N.M. (General Nursing and Midwifery) program is a professional nursing course that
+                    prepares students for a successful career in e. The course combines theoretical learning
+                    with practical hospital training to develop skilled, compassionate, and ethical nursing
+                    professionals.
+                </p>
+                <div class="table">
+                    <table>
+                        <tr>
+                            <th>Duration</th>
+                            <td>3 Years</td>
+                        </tr>
+                        <tr>
+                            <th>Eligibility</th>
+                            <td>The candidate must have passed 10+2 (Higher Secondary) or equivalent from a recognized
+                                board in any stream (Science / Arts / Commerce).</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    
+    <!-- ------------contact us-------------- -->
+
+    <section  id="contact" class="contact">
+        <h1>Contact Us</h1>
+        <div class="apply-container">
+
+            <!-- Left: Contact Details -->
+            <div class="contact-info">
+                <h2>Contact</h2>
+
+                <p>
+                    <strong>Phone:</strong><br>
+                     9712636288 / 9428773136
+                </p>
+
+                <p>
+                    <strong>Address:</strong><br>
+                     Near Circuit House Malpur Road<br>
+                     Modasa Arvalli Gujarat - 383315 
+                </p>
+            </div>
+        </div>
+    </section>
+</section>
+
+    
+
+
+    <!-- --------JS FOR TOGGLE MENU------- -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hiddenMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

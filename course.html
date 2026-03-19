@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="course.css"><link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+             <a href="#home"><img src="SHAKTI LOGO.jpg.png" height="100px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#course">COURSE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        
+    </section>
+
+    <!-- -----COURSE------ -->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>G.N.M. (General Nursing and Midwifery)</h3>
+                <p>
+                    The G.N.M. (General Nursing and Midwifery) program is a professional nursing course that
+                    prepares students for a successful career in e. The course combines theoretical learning
+                    with practical hospital training to develop skilled, compassionate, and ethical nursing
+                    professionals.
+                </p>
+                <div class="table">
+                    <table>
+                        <tr>
+                            <th>Duration</th>
+                            <td>3 Years</td>
+                        </tr>
+                        <tr>
+                            <th>Eligibility</th>
+                            <td>The candidate must have passed 10+2 (Higher Secondary) or equivalent from a recognized
+                                board in any stream (Science / Arts / Commerce).</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+     <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hiddenMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
